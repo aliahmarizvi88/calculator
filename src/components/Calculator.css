@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+.display {
+  background-color: gainsboro;
+  font-size: 8vmin;
+  height: 100px;
+  width: 500px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.keypad {
+  height: 50vmin;
+  width: 50vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+  background-color: aliceblue;
+  height: max-content;
+}
+.buttons {
+  height: 10vmin;
+  width: 10vmin;
+  border-radius: 1rem;
+  border: none;
+  font-size: 8vmin;
+}
